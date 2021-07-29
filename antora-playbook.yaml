@@ -14,9 +14,7 @@ content:
     start_path: docs
   - url: https://github.com/techniumlabs/docs.git
     branches: [antora]
-    start_path: antora-ui-default-master/docs
-  - url: https://github.com/techniumlabs/docs.git
-    branches: [antora]
+    start_paths: [antora-ui-default-master/docs,'']
 ui:
   bundle:
     url: ./antora-ui-default-master/build/ui-bundle.zip
